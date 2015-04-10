@@ -16,11 +16,6 @@ function doOpen() {
   }
 };
 
-
-
-
-
-
 $.loginSuccessAction = function(_options) {
 
 	Ti.API.info('logged in user information');
@@ -28,7 +23,7 @@ $.loginSuccessAction = function(_options) {
 
 	// open the main screen
 	//$.tabGroup.open();
-		alert("You in");
+		alert("You are loged in");
 		$.index.open();
 	// set tabGroup to initial tab, in case this is coming from
 	// a previously logged in state

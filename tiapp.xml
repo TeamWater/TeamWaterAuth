@@ -7,7 +7,7 @@
     <version>1.0</version>
     <publisher>Mayra</publisher>
     <url>http://www.wtamu.edu</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2015 by Mayra</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -15,6 +15,8 @@
     <analytics>true</analytics>
     <guid>6b304bcc-c927-4849-971e-26d57ac504aa</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
+    <!--using facebook appid-->
+    <property name="ti.facebook.appid">710193929092015</property>
     <ios>
         <plist>
             <dict>
@@ -51,6 +53,8 @@
     </mobileweb>
     <modules>
         <module platform="commonjs">ti.cloud</module>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>
